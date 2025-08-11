@@ -1,75 +1,123 @@
-# Curso de Fundamentos de Python para Cientistas de Dados  Data Science Academy
+# 📚 Curso de Fundamentos de Python para Cientistas de Dados – Data Science Academy
 
-Este repositório contém meu progresso completo no curso **Fundamentos de Python para Cientistas de Dados**, oferecido pela [Data Science Academy](https://www.datascienceacademy.com.br/). O conteúdo vai do básico ao avançado, incluindo conceitos essenciais de programação e aplicações práticas voltadas para Ciência de Dados.
-
----
-
-## Objetivo
-
-Consolidar os fundamentos da linguagem Python aplicados à Ciência de Dados, abordando lógica de programação, estruturas de dados, orientação a objetos, e bibliotecas como Pandas, NumPy e Matplotlib, além de realizar projetos práticos.
+Este repositório documenta meu progresso no curso **Fundamentos de Python para Cientistas de Dados**, oferecido pela [Data Science Academy](https://www.datascienceacademy.com.br/).
+O curso vai do básico ao avançado, cobrindo **conceitos essenciais de programação** e **aplicações práticas** voltadas para Ciência de Dados.
 
 ---
 
-## Conteúdo
+## 🎯 Objetivo do Curso
 
-### Aulas
+Consolidar os fundamentos da linguagem Python aplicados à Ciência de Dados, incluindo:
 
-Os notebooks estão organizados em ordem temática:
-
-| Aula            | Tópico                                                           |
-| --------------- | ---------------------------------------------------------------- |
-| Aula 01         | Introdução e pseudocódigo                                        |
-| Aula 02         | Listas e estruturas de dados                                     |
-| Aula 04         | Métodos e funções em Python                                      |
-| Aula 05         | Laços de repetição e estruturas condicionais                     |
-| Aula 06         | Funções `map` e manipulação funcional                            |
-| Aula 08         | Programação Orientada a Objetos (POO)                            |
-| Aula 09         | Fundamentos da biblioteca NumPy                                  |
-| Aula 10         | Introdução à biblioteca Pandas                                   |
-| Aula 11         | Visualização de dados com Matplotlib                             |
-| Aula 11 (extra) | Visualização de dados com Seaborn                                |
-| Aula 12         | Consultas em banco de dados com SQL (usando SQLite)              |
-| Resumo POO      | Revisão prática dos conceitos de Programação Orientada a Objetos |
-| cap12\_dsa.db   | Banco de dados usado nos exercícios da Aula 12                   |
-| dataset.csv     | Dataset utilizado em atividades de análise de dados              |
-
-> Todos os arquivos estão organizados na pasta `/Aulas`.
+* Lógica de programação e estruturas de dados.
+* Programação orientada a objetos.
+* Manipulação e análise de dados.
+* Visualização de dados.
+* Modelagem estatística e aprendizado de máquina.
+* Séries temporais e deep learning.
+* Aplicações práticas com dados reais.
 
 ---
 
-### 🚀 Projetos
+## 📂 Estrutura do Repositório
 
-Os projetos são atividades práticas aplicando os conhecimentos aprendidos ao longo do curso.
+### **Aulas**
 
-| Projeto                     | Descrição                                                   |
-| --------------------------- | ----------------------------------------------------------- |
-| `dsa_projeto1_v1.ipynb` | Primeira versão do jogo da forca                            |
-| `dsa_projeto1_v2.ipynb` | Segunda versão do jogo da forca  |
+Notebooks organizados por tópicos:
 
- Ambos os arquivos estão na pasta `/projetos`.
+| Aula            | Conteúdo                                                                 |
+| --------------- | ------------------------------------------------------------------------ |
+| Aula 01         | Introdução e pseudocódigo                                                |
+| Aula 02         | Listas e estruturas de dados                                             |
+| Aula 04         | Métodos e funções em Python                                              |
+| Aula 05         | Laços de repetição e estruturas condicionais                             |
+| Aula 06         | Funções `map` e manipulação funcional                                    |
+| Aula 08         | Programação Orientada a Objetos (POO)                                    |
+| Aula 09         | Fundamentos da biblioteca NumPy                                          |
+| Aula 10         | Introdução à biblioteca Pandas                                           |
+| Aula 11         | Visualização de dados com Matplotlib                                     |
+| Aula 11 (extra) | Visualização de dados com Seaborn                                        |
+| Aula 12         | Consultas SQL usando SQLite                                              |
+| Aula 14         | Statsmodels                                                              |
+| Aula 15         | Scikit-Learn                                                             |
+| Aula 16         | Séries temporais                                                         |
+| Aula 17         | Deep Learning                                                            |
+| Aula 18         | Trading com Inteligência Artificial em Python (Candlestick e Q-learning) |
+| Resumo POO      | Revisão prática de POO                                                   |
+
+> Arquivos armazenados na pasta `/aulas`.
 
 ---
 
+### **Projetos**
 
-## 🛠️ Tecnologias e Ferramentas
+Atividades práticas aplicando o conteúdo aprendido:
 
-- Python 3.x
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib / PyLab
+| Arquivo                 | Descrição                                                     |
+| ----------------------- | ------------------------------------------------------------- |
+| `dsa_projeto1_v1.ipynb` | Primeira versão do jogo da forca                              |
+| `dsa_projeto1_v2.ipynb` | Versão melhorada do jogo da forca                             |
+| `dsa_projeto2.ipynb`    | Análise Exploratória de Dados em Python para a área de varejo |
+
+> Arquivos na pasta `/projetos`.
 
 ---
 
-## 🚀 Como Executar
+## 🛠️ Tecnologias Utilizadas
 
-1. Clone este repositório:
+* Python 3.x
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib / PyLab
+* Seaborn
+* Statsmodels
+* Scikit-Learn
+* TensorFlow / Keras (Deep Learning)
+* SQLite
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+
 ```bash
 git clone https://github.com/leticia0587/curso-python-dsa.git
 ```
 
-2. Acesse a pasta e inicie os notebooks:
+2. Acesse a pasta do projeto:
+
 ```bash
-cd curso-python-dsa 
+cd curso-python-dsa
+```
+
+3. Abra o Jupyter Notebook:
+
+```bash
 jupyter notebook
-````
+```
+
+---
+
+## 📌 Observações
+
+* Datasets utilizados estão na pasta `/dataset`.
+* Banco de dados usado na aula 12: `cap12_dsa.db`.
+* Arquivos `.db` e datasets de treino não são essenciais para execução de conceitos básicos.
+
+---
+
+## 📈 Principais Aprendizados
+
+* Fundamentos sólidos da linguagem Python aplicados à Ciência de Dados.
+* Criação e manipulação de estruturas de dados complexas.
+* Análise e visualização de dados com Pandas, Matplotlib e Seaborn.
+* Modelagem estatística com Statsmodels.
+* Construção e avaliação de modelos de machine learning com Scikit-Learn.
+* Análise de séries temporais e previsão de dados.
+* Fundamentos de redes neurais e aplicações com Deep Learning.
+* Uso de Q-learning e análise de gráficos Candlestick para trading automatizado.
+* Integração de Python com bancos de dados SQLite para consultas e análise.
+
+---
